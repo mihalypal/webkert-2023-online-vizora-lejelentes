@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "webfejl-2022": {
+      "hosting": {
+        "vizora": [
+          "webfejl-2022"
+        ]
+      }
+    },
+    "online-vizora-lejelentes": {
+      "hosting": {
+        "vizora": [
+          "online-vizora-lejelentes"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "online-vizora-lejelentes"
+  }
+}
