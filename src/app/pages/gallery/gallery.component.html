@@ -1,2 +1,10 @@
+<div class="kepek">
+    <div fxFlex>
+        <img width="300px" src="assets/images/vizora1.png" alt="vizora1"><br fxHide.gt-sm/>
+        <img width="300px" src="assets/images/vizora2.png" alt="vizora2"><br fxHide.gt-md/>
+        <img width="300px" src="assets/images/vizora3.png" alt="vizora3"><br fxHide.gt-sm/>
+        <img width="300px" src="assets/images/vizora4.png" alt="vizora4">
+    </div>
+</div>
 <app-list [galleryObjectInput]="galleryObject" (imageObjectEmitter)="loadImage($event)"></app-list>
 <app-viewer [imageInput]="chosenImage"></app-viewer>
